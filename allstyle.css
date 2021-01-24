@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* CSS Document */
+#header {
+  height: 80px;
+  width: 100%;
+  margin: 0px;
+  background-color: #90F;
+}
+
+#header h1 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 2px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-style: italic;
+  letter-spacing: 8px;
+  line-height: 5px;
+}
+
+#wrapper {
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+#left {
+  height: 780px;
+  width: 22%;
+  color: #C0F;
+  float: left;
+  background-color: #CCC;
+}
+
+#right {
+  height: 780px;
+  width: 78%;
+  float: left;
+}
+
+.view {
+  width: 250px;
+  height: 300px;
+  margin: 15px 20px;
+  box-shadow: 3px 3px 3px #2A3F55;
+  border: 0px solid;
+  float: left;
+}
+
+li.viewbook {
+  width: 200px;
+  height: 250px;
+  margin: 10px 10px;
+  box-shadow: 3px 3px 3px #2A3F55;
+  border: 0px solid;
+  display: inline;
+  float: left;
+}

@@ -1,0 +1,155 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, main, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+body {
+  line-height: 1;
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+  content: '';
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input, select {
+  vertical-align: middle;
+}
+img {
+  vertical-align: top;
+  font-size: 0;
+  line-height: 0;
+}
+select, textarea, input[type='tel'], input[type='num'], input[type='text'], input[type='email'], input[type='password'] {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1) inset;
+  box-sizing: border-box;
+}
+textarea:focus, input[type='tel']:focus, input[type='num']:focus, input[type='text']:focus, input[type='email']:focus, input[type='password']:focus {
+  border-color: #0078d7;
+  box-shadow: none;
+}
+input[type='button'], input[type='submit'] {
+  padding: 5px;
+  -webkit-appearance: none;
+}
+input[type=radio], input[type=checkbox] {
+  display: inline-block;
+  margin-right: 6px;
+}
+input[type=radio] + label, input[type=checkbox] + label {
+  position: relative;
+  display: inline-block;
+  margin-right: 12px;
+  line-height: 30px;
+  cursor: pointer;
+}
+input[type=radio], input[type=checkbox] {
+  display: none;
+  margin: 0;
+}
+input[type=radio] + label, input[type=checkbox] + label {
+  margin-bottom: 5px;
+  padding: 0 0 0 24px;
+}
+input[type=radio] + label::before, input[type=checkbox] + label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-top: -9px;
+  background: #FFF;
+}
+input[type=radio] + label::before {
+  border: 2px solid #ccc;
+  border-radius: 30px;
+}
+input[type=checkbox] + label::before {
+  border: 2px solid #ccc;
+}
+input[type=radio]:checked + label::after, input[type=checkbox]:checked + label::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+}
+input[type=radio]:checked + label::after {
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background: #f00;
+  border-radius: 8px;
+}
+input[type=checkbox]:checked + label::after {
+  left: 3px;
+  width: 16px;
+  height: 8px;
+  margin-top: -8px;
+  border-left: 3px solid #f00;
+  border-bottom: 3px solid #f00;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
